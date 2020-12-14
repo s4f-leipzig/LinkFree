@@ -1,8 +1,8 @@
 /* Style Settings */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root {
-    --bgColor: #eeeeee;
-    --accentColor: #204051;
+    --bgColor: #fff;
+    --accentColor: #0F4A90;
     --font: 'Roboto', sans-serif;
 }
 
@@ -20,8 +20,8 @@ div.top{
     height: 96px;
     display: block;
     margin: 35px auto;
-    border-radius: 25%;
-    border-style: solid;
+    border-radius: 100%;
+    /* border-style: solid; */
 }
 
 #userName{
@@ -73,6 +73,6 @@ h1{
 }
 
 .link:hover{
-    background-color: #3b6978;
+    background-color: #930E26;
     color: #ffffff;
 }
